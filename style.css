@@ -1,182 +1,177 @@
-body{
- box-sizing: border-box;
+body {
+  box-sizing: border-box;
 }
+
 .container {
-	display: flex;
-	flex-direction: column;
-	gap: 3px;
-	align-items: center;
-	color: black;
-	width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  align-items: center;
+  color: black;
+  width: 100%;
 }
 
 .header {
-	width: 90%;
-	border: 2px solid #000;
-	display: flex;
-	justify-content: space-between;	
-	padding-left: 5%;
-	padding-right: 5%;
+  width: 90%;
+  border: 2px solid #000;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
-nav{
- display: flex;
- width: 50%;
- max-width: 60%;
- align-items: center;
- justify-content: flex-end;
+nav {
+  display: flex;
+  width: 50%;
+  max-width: 60%;
+  align-items: center;
+  justify-content: flex-end;
 }
 
-nav ul{
- width: 100%;
- list-style-type: none;
- display: flex;
-
- justify-content: flex-end;
+nav ul {
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
 }
 
-nav ul li{
- display: flex;
- justify-content: center;
- font-size: 24px;
- font-weight: 500;
- flex: 1 2 0;
- justify-self: center;
+nav ul li {
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 500;
+  flex: 1 2 0;
+  justify-self: center;
 }
 
-nav ul #nav-add{
- flex-grow: 2;
- flex-shrink: 1;
+nav ul #nav-add {
+  flex-grow: 2;
+  flex-shrink: 1;
 }
 
-nav ul li:last-child{
- justify-content: flex-end;
-	padding-left: 3%;
-
+nav ul li:last-child {
+  justify-content: flex-end;
+  padding-left: 3%;
 }
 
-nav ul li:not(:last-child){ 
- justify-self: center;
+nav ul li:not(:last-child) {
+  justify-self: center;
 }
 
- a{
- color: #000;
- text-decoration: none;
- cursor: pointer;
+a {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
 }
 
-ul li.phone a{
- color: rgb(181, 226, 226);
- text-decoration: underline;
- cursor: pointer;
+a:hover,
+a:active {
+  color: rgb(181, 226, 226);
 }
 
- a:hover,
- a:active
-{
- color: rgb(181, 226, 226);
+ul li.phone a {
+  color: rgb(181, 226, 226);
+  text-decoration: underline;
+  cursor: pointer;
 }
-
-
 
 main {
-	width: 100%;
-	padding: 1% 5%;
-	display: flex;
-	flex-direction: column;
-	height: auto;
-	font-size: 18px;
-	font-weight: 600;
-} 
+  width: 100%;
+  padding: 1% 5%;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  font-size: 18px;
+  font-weight: 600;
+}
 
 #date-time {
- display: flex;
- justify-content: flex-end;
- justify-self: flex-end;
- margin-right: 2%;
- margin-bottom: 3%;
- font-size: medium;
+  display: flex;
+  justify-content: flex-end;
+  justify-self: flex-end;
+  margin-right: 2%;
+  margin-bottom: 3%;
+  font-size: medium;
 }
 
 .list-container {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.form-container{
- display: flex;
- flex-direction: column;
- align-items: center;
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 form {
-	display: flex;
-	
-	flex-direction: column;
-	align-items: center;
-	align-self: center;
-	height: auto;
-	gap: 10%;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  height: auto;
+  gap: 10%;
 }
 
-input[type="text"]{
-	height: 30px;
- width: 20rem;
- font-size: 16px;
+input[type="text"] {
+  height: 30px;
+  width: 20rem;
+  font-size: 16px;
 }
 
-#submit-btn{
- padding: 10px 40px;
- font-size: 18px;
- display: flex;
- cursor: pointer;
- align-self: flex-end;
- border-right: 4px solid black;
- border-bottom: 4px solid black;
+#submit-btn {
+  padding: 10px 40px;
+  font-size: 18px;
+  display: flex;
+  cursor: pointer;
+  align-self: flex-end;
+  border-right: 4px solid black;
+  border-bottom: 4px solid black;
 }
 
 form .style-me {
-	height: 5px;
-	width: 50%;
-	justify-self: center;
-	align-self: center;
-	background-color: #000;
-	border-radius: 100px;
-	margin-bottom: 30px;
+  height: 5px;
+  width: 50%;
+  justify-self: center;
+  align-self: center;
+  background-color: #000;
+  border-radius: 100px;
+  margin-bottom: 30px;
 }
 
 .btn-col {
-	border: 5px solid black;
+  border: 5px solid black;
 }
 
 table {
-	border: 3px solid #000;
-	display: flex;
-	flex-direction: column;
-	gap: 15px;
-	height: auto;
-	width: 90%;
-	padding: 5%;
+  border: 3px solid #000;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  height: auto;
+  width: 90%;
+  padding: 5%;
 }
 
 table tr {
-	display: flex;
-	height: auto;
-	align-items: center;
-	padding: 1px;
-	justify-content: space-between;
+  display: flex;
+  height: auto;
+  align-items: center;
+  padding: 1px;
+  justify-content: space-between;
 }
 
 #books-list tbody:nth-child(odd) {
-	 background-color: rgb(152, 156, 152); 
-} 
+  background-color: rgb(152, 156, 152);
+}
 
 .contact-container {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;	
- gap: 5px;
- font-size: larger;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-size: larger;
 }
