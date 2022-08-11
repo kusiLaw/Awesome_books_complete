@@ -152,7 +152,7 @@ contact.addEventListener('click', (e)=> {
 	<p class="contact-paragraph">If you have any questions or you want to say "Hello",</p>
 	<p class="contact-paragraph">you can reach out to us: </p>
 	<ul>
-		<li class="email">Our email: info@awesomebooks.com</li>
+		<li class="email">Our email: <a href="#"> info@awesomebooks.com</a></li>
 		<li class="phone">Our phone number: +54367869011</li>
 		<li class="address">Our address: Selam Road 33, 76401 Acra, Ghana</li>
 	</ul>

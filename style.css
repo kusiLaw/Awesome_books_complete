@@ -59,15 +59,25 @@ nav ul li:not(:last-child){
  justify-self: center;
 }
 
-nav ul li a{
+ a{
  color: #000;
  text-decoration: none;
+ cursor: pointer;
 }
 
-nav ul li a:active,
-nav ul li a:hover{
+ul li.phone a{
+ color: rgb(181, 226, 226);
+ text-decoration: underline;
+ cursor: pointer;
+}
+
+ a:hover,
+ a:active
+{
  color: rgb(181, 226, 226);
 }
+
+
 
 main {
 	width: 100%;
@@ -85,7 +95,7 @@ main {
  justify-self: flex-end;
  margin-right: 2%;
  margin-bottom: 3%;
- font-size: small;
+ font-size: medium;
 }
 
 .list-container {
@@ -102,7 +112,7 @@ main {
 
 form {
 	display: flex;
-	width: 15%;
+	
 	flex-direction: column;
 	align-items: center;
 	align-self: center;
@@ -112,11 +122,18 @@ form {
 
 input[type="text"]{
 	height: 30px;
+ width: 20rem;
+ font-size: 16px;
 }
 
 #submit-btn{
  padding: 10px 40px;
  font-size: 18px;
+ display: flex;
+ cursor: pointer;
+ align-self: flex-end;
+ border-right: 4px solid black;
+ border-bottom: 4px solid black;
 }
 
 form .style-me {
@@ -151,7 +168,7 @@ table tr {
 	justify-content: space-between;
 }
 
-#books-list tbody:nth-child(even) {
+#books-list tbody:nth-child(odd) {
 	 background-color: rgb(152, 156, 152); 
 } 
 
@@ -160,4 +177,6 @@ table tr {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;	
+ gap: 5px;
+ font-size: larger;
 }
