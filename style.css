@@ -59,7 +59,7 @@ nav ul li a:hover{
 }
 
 main {
-  width: 40%;
+  width: 90%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -74,12 +74,18 @@ main {
  justify-self: flex-end;
 }
 
+.form-container,
+.contact-info {
+  display: none;
+  flex-direction: column;
+}
+
 
 form {
   display: flex;
   flex-direction: column;
   height: auto;
-  /* border: 1px solid black; */
+  gap: 15px;  
 }
 
 form .style-me {
