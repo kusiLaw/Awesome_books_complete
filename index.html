@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head >
+		<meta charset="UTF-8">  
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="style.css" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">    
+		<title>Awesome Books</title>
+	</head>
+	<body>
+		<div class="container">
+			<header class="header">
+				<h2>Awesome books</h2>
+			 <nav class="navigation">
+				<ul class="nav-lists">
+				 <li id="nav-list"><a href="#">List</a> </li>
+				 <li id="nav-add"><a href="#">Add New</a> </li>
+				 <li id="nav-contact"><a href="#">Contact</a> </li>
+				</ul>
+			 </nav>
+			</header>
+			<main>
+				<p><span id="date-time"></span></p>
+			 <section class="list-container">
+				<h1>All awesome books</h1>
+				<table id="books-list">
+				</table>
+			 </section>
+
+			 <section class="form-container">
+					<h2>Add a new book</h2>
+				 <form id="book-form" action="/" method="post">
+					 <div class="style-me"></div>
+					 <input id="title-input" type="text" placeholder="Title" name="title"><br/><br/>
+					 <input id="author-input" type="text" placeholder="Author" name="author"><br/><br/>
+					 <button id="submit-btn" type="submit">Add</button>
+				 </form>
+			 </section>
+
+			 <div class="contact-container">
+	
+    </div>
+			 
+			</main>
+			<footer>
+     <p>Copyright <span>...</span></p>
+			</footer>
+		</div>
+		<script src="index.js"></script>
+	</body>
+	
+</html>
