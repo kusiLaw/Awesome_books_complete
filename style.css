@@ -1,0 +1,119 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  align-items: center;
+  color: black;
+}
+
+.header {
+  width: 90%;
+  border: 2px solid #000;
+  display: flex;
+  justify-content: space-between;
+  flex: 1 1 50px;
+  padding-left: 5%;
+}
+
+header h1{
+ width: 20%;
+}
+
+nav{
+ display: flex;
+ justify-content: space-between;
+ 
+ width: 30%;
+ max-width: 60%;
+ align-items: center;
+}
+
+nav ul{
+ width: 100%;
+ list-style-type: none;
+ display: flex;
+ justify-content: space-between;
+}
+
+nav ul li:last-child{
+ margin-right: 15%;
+}
+
+nav ul > li:not(:last-child){
+ border-right: 3px solid black;
+ padding-right: 20px;
+}
+
+nav ul li{
+ font-size: 24px;
+ font-weight: 500;
+}
+
+nav ul li a{
+ color: #000;
+ text-decoration: none;
+}
+
+nav ul li a:hover{
+ color: aqua;
+}
+
+main {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+  height: auto;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.time {
+ justify-self: flex-end;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  /* border: 1px solid black; */
+}
+
+form .style-me {
+  height: 5px;
+  width: 50%;
+  justify-self: center;
+  align-self: center;
+  background-color: #000;
+  border-radius: 100px;
+  margin-bottom: 30px;
+}
+
+.btn-col {
+  border: 5px solid black;
+}
+
+table {
+  border: 3px solid #000;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  height: auto;
+  width: 90%;
+  padding: 5%;
+}
+
+table tr {
+  display: flex;
+  height: auto;
+  align-items: center;
+  padding: 1px;
+  justify-content: space-between;
+}
+
+#books-list tbody:nth-child(even) {
+	 background-color: rgb(152, 156, 152); 
+	}
